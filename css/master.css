@@ -1,0 +1,115 @@
+body{
+  font-family: 'roboto';
+}
+
+h1 {
+  font-family: 'lato';
+  font-size: 20px;
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+  height: 52px;
+  position: absolute;
+  bottom: 10px;
+  right:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+
+nav {
+  justify-content: center;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+h2 {
+  margin-bottom: 30px;
+
+}
+
+.menu li{
+  display: inline-block;
+  margin-left:30px;
+}
+
+.menu li:before{
+  font-size: 50px;
+  color: white;
+  margin-top: 10px;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.insta {
+  color: white;
+  text-decoration: none;
+}
+
+.contenido{
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding-left: 80px;
+}
+
+.menu {
+  font-size:20px;
+  position: absolute;
+  right: 40px;
+  top: 57px;
+}
+
+.imagendestacada{
+  display: flex;
+  padding: 80px;
+  background: black;
+  justify-content: center;
+}
+
+.imagengrande{
+  justify-content: center;
+}
+
+.head{
+  display: flex;
+  background-color: black;
+  height: 100px;
+}
+
+.logo{
+  position: absolute;
+  left: 20px;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer li{
+  display: inline-block;
+  margin: 0 0 0 10px;
+  color: black;
+  border: solid 2px white;
+  background-color: white;
+  cursor: pointer;
+}
